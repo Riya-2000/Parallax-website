@@ -1,0 +1,52 @@
+.img1 {
+  background-image: url("Taj-Mahal.jpg");
+}
+.img2 {
+  background-image: url("View-of-Christ-the-Redeemer.jpg");
+}
+.img3 {
+  background-image: url("Petra-at-night,jordan.jpg");
+}
+.img4 {
+  background-image: url("Great-Wall-of-China.jpg");
+}
+.img5 {
+  background-image: url("View-of-the-Colosseum.jpg");
+}
+.img6 {
+  background-image: url("Machu-Picchu-around-sunset.jpg");
+}
+.img7 {
+  background-image: url("Chichen-Itza-at-night.jpg");
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7 {
+  background-attachment: fixed;
+  opacity: 70%;
+  position: relative;
+  background-size: cover;
+  min-height: 850px;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 8px;
+  font-size: 30px;
+  font-weight: 800;
+}
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.8em;
+  background: black;
+}
+p {
+  text-align: justify;
+  padding: 20px 40px;
+}
